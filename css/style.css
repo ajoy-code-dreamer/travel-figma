@@ -18,8 +18,8 @@
   /* === colors === */
   --white-clr: #fff;
   --black-clr: #222;
-  --primary-clr: #289BDE;
-  --heading-text-clr:#071B27;
+  --primary-clr: #289bde;
+  --heading-text-clr: #071b27;
   --secondary-text-clr: #666;
   --transparent-clr: transparent;
   /* === colors === */
@@ -67,71 +67,192 @@ img {
   max-width: 1340px;
   margin: 0 auto;
 }
-body{
+body {
   font-family: var(--poppins-font);
 }
-.common_btn{
+.common_btn {
   font-size: 16px;
   font-weight: var(--medium-weight);
   color: var(--white-clr);
   padding: 8px 15px;
-  background-color: var(--primary-clr);
-  transition: var(--transition);
-  border: 1px solid transparent;
-  border-radius: 5px;
-}
-.common_btn:hover{
   background-color: var(--transparent-clr);
-border-color: var(--white-clr);}
+  transition: var(--transition);
+  border-radius: 5px;
+  border: 1px solid var(--white-clr);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.common_btn:hover {
+  border: 1px solid transparent;
+  background-color: var(--primary-clr);
+  border-color: var(--primary-clr);
+}
 /* ============= common css end here ================ */
 /* ============= navbar css start here ============= */
-nav{
+nav {
   width: 100%;
   padding: 23px 0;
-  background-color: var(--heading-text-clr);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--transparent-clr);
+  z-index: 99999;
 }
-.nav_wrapper{
+.nav_wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.nav_logo{
+.nav_logo {
   font-size: 40px;
   font-weight: var(--regular-weight);
   color: var(--white-clr);
 }
-.menu_wrapper{
+.menu_wrapper {
   display: flex;
   align-items: center;
   column-gap: 30px;
   padding: 0 83px 0 266px;
 }
-.nav_link{
+.nav_link {
   font-size: 16px;
   font-weight: var(--medium-weight);
   color: var(--white-clr);
   transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
 }
-.nav_link:hover{
-  color: var(--primary-clr);  
+.nav_link:hover {
+  color: var(--primary-clr);
 }
-.nav_button_wrapper{
+.nav_button_wrapper {
   display: flex;
   align-items: center;
   column-gap: 18px;
+  justify-content: end;
 }
-.nav_btn:nth-child(2){
-  padding: 8px 25px;
+.nav_btn:nth-child(2) {
+  padding: 8px 35px;
 }
 /* ============= navbar css end here ============= */
 /* ================ banner css start here ================ */
-#banner{
-  
+#banner {
+  padding: 277px 0 350px 0;
+  background-color: var(--heading-text-clr);
+  position: relative;
+}
+.banner_wrapper {
+  text-align: center;
+}
+.banner_wrapper h4 {
+  font-size: 30px;
+  font-weight: var(--medium-weight);
+  color: var(--white-clr);
+}
+.banner_wrapper h1 {
+  max-width: 1117px;
+  margin: 0 auto;
+  font-size: 70px;
+  font-weight: var(--bold-weight);
+  color: var(--white-clr);
+  line-height: normal;
+}
+.banner_btn_wrapper {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+.banner_btn {
+  padding: 20px 30px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.banner_shape_left {
+  position: absolute;
+  left: 75px;
+  top: 320px;
+  width: 355px;
+  height: 245px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+.banner_shape_right {
+  position: absolute;
+  right: 75px;
+  top: 320px;
+  width: 386px;
+  height: 245px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+.banner_shape_left picture img,
+.banner_shape_right picture img {
+  width: 100%;
+  height: 100%;
 }
 /* ================ banner css end here ================ */
+#card {
+  position: relative;
+  margin-top: -207px;
+  z-index: 999;
+}
+.card_wrapper {
+  display: flex;
+  position: relative;
+}
+.card_item {
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
 
-/* ================ banner css start here ================ */
-/* ================ banner css end here ================ */
+.card_item:nth-child(1) {
+  width: 343px;
+  height: 433px;
+  padding-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 18px 56px 0px rgba(0, 0, 0, 0.07);
+}
+.card_item:nth-child(2) {
+  width: 235px;
+  height: 282px;
+  border-radius: 12px;
+  box-shadow: 0px 16px 52px 0px rgba(0, 0, 0, 0.07);
+}
+.card_item:nth-child(3) {
+  width: 300px;
+  height: 141px;
+  border-radius: 8px;
+  box-shadow: 0px 14px 48px 0px rgba(0, 0, 0, 0.07);
+}
+.card_item:nth-child(4) {
+  width: 446px;
+  height: 386px;
+  border-radius: 12px;
+  box-shadow: 0px 18px 56px 0px rgba(0, 0, 0, 0.07);
+}
+
+.card_item picture  {
+  width: 100%;
+  height: 100%;
+}
+.card_item picture img {
+  width: 100% !important;
+  height: 100% !important;
+}
+/* ================ card css start here ================ */
+
+/* ================ card css end here ================ */
 
 /* ================ banner css start here ================ */
 /* ================ banner css end here ================ */
