@@ -371,8 +371,6 @@ nav {
 .service_item:hover{
   border-color: var(--white-clr);
 }
-
-
 .service_img {
   width: 564px;
   height: 447px;
@@ -436,11 +434,25 @@ line-height: normal;
   color: var(--primary-clr);
   font-weight: bold;
 }
-
 /* ================ service section css end here ================ */
 
-/* ================ banner css start here ================ */
-/* ================ banner css end here ================ */
+/* ================ commitment section css start here ================ */
+#commitment{
+  padding: 140px 0;
+}
+.commitment_section_heading .commonSection_heading{
+  width: 450px;
+  font-weight: var(--bold-weight);
+}
+.commitment_content_wrapper{
+  display: flex;
+  gap: 200px;
+}
+.commitment_item{
+  display: flex;
+  column-gap: 18px;
+}
+/* ================ commitment section css end here ================ */
 
 /* ================ banner css start here ================ */
 /* ================ banner css end here ================ */
