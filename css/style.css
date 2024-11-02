@@ -404,31 +404,29 @@ nav {
   gap: 24px;
 }
 .service_item_details {
-  display: flex;
-  align-items: start;
-  column-gap: 18px;
-}
-.service_item_details_check {
-  color: var(--primary-clr);
-  width: 21px;
-  height: 24px;
-  border: 1px solid var(--primary-clr);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  padding: 3px;
-  margin-top: 7px;
-}
-.service_item_details p {
   color: var(--white-clr);
   font-size: 20px;
   font-weight: var(--regular-weight);
   line-height: normal;
+  position: relative;
+  padding-left: 38px;
+}
+.service_item_details_check {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  color: var(--primary-clr);
+  width: 21px;
+  height: 24px;
+  border: 1px solid var(--primary-clr);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
 }
 .service_item_details_highlight {
   color: var(--primary-clr);
@@ -478,62 +476,20 @@ nav {
   line-height: 27px;
   letter-spacing: 0.16px;
 }
-.commitment_graph_part_wrapper{
-  position: relative;
-}
 .commitment_graph{
-  width: 590px;
-  height: 456px;
+  width: 662px;
+  height: 519px;
   overflow: hidden;
   object-fit: cover;
   object-position: center;
-  position: absolute;
-  top: -140px;
-  left: 0;
+  
 }
-.commitment_user_wrapper{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.commitment_user_wrapper{
-  display: flex;
-  flex-direction: column;
-}
-.commitment_user_item{
-  display: flex;
-  justify-content: center;
-}
-.commitment_user_check{
-  width: 15px;
-  height: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 3px;
-  border: 2px solid var(--secondary-text-clr);
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  font-size: 10px;
-}
-.commitment_user_img{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  /* object-fit: cover;
-  object-position: center; */
-  margin: 0 11px 0 22px;
-  background-color: #07003b;
-}
-.commitment_user_img img{
-  width: 100%;
-  height: 100%;
+.commitment_graph picture img{
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
 }
 
 
