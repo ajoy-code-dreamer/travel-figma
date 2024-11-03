@@ -441,7 +441,7 @@ nav {
 .commitment_section_heading .commonSection_heading {
   width: 450px;
   font-weight: var(--bold-weight);
-  margin-bottom: 54px;
+  margin-bottom: 33px;
 }
 .commitment_content_wrapper {
   display: flex;
@@ -450,7 +450,7 @@ nav {
 .commitment_item_wrapper {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 15px;
 }
 .commitment_item {
   display: flex;
@@ -467,6 +467,7 @@ nav {
   line-height: normal;
   letter-spacing: 0.26px;
   padding-bottom: 12px;
+  margin-top: 4px;
 }
 .commitment_item_details {
   width: 479px;
@@ -476,15 +477,14 @@ nav {
   line-height: 27px;
   letter-spacing: 0.16px;
 }
-.commitment_graph{
+.commitment_graph {
   width: 662px;
   height: 519px;
   overflow: hidden;
   object-fit: cover;
   object-position: center;
-  
 }
-.commitment_graph picture img{
+.commitment_graph picture img {
   transform: scale(0.9);
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
@@ -492,12 +492,84 @@ nav {
   -o-transform: scale(0.9);
 }
 
-
-
 /* ================ commitment section css end here ================ */
 
-/* ================ banner css start here ================ */
-/* ================ banner css end here ================ */
+/* ================ testimonials section css start here ================ */
+#testimonials {
+  padding-bottom: 144px;
+}
+.testimonials_heading_wrapper {
+  text-align: center;
+  margin-bottom: 58px;
+}
+.testimonials_heading_wrapper .commonSection_heading_content {
+  max-width: 628px;
+  margin: 0 auto;
+}
+.testimonials_item_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px 22px;
+}
+.testimonials_item {
+  width: 431px;
+  height: 249px;
+  border-radius: 5px;
+  border: 1px solid rgba(102, 102, 102, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 17px 15px;
+}
+.testimonials_user_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+  margin-bottom: 17px;
+}
+.testimonials_user_img {
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.testimonials_user_img img {
+  width: 100%;
+  height: 100%;
+}
+.testimonials_user_name {
+  color: var(--heading-text-clr);
+  font-size: 18px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.testimonials_ratings_wrapper {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  color: #ffb906;
+}
+.testimonials_user_details {
+  width: 377px;
+  color: var(--secondary-text-clr);
+  font-size: 15px;
+  font-weight: var(--regular-weight);
+  line-height: 27px;
+  margin: 0 auto;
+}
+
+/* ================ testimonials section css end here ================ */
 
 /* ================ banner css start here ================ */
 /* ================ banner css end here ================ */
