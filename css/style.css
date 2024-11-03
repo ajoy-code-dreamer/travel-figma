@@ -734,6 +734,7 @@ nav {
   line-height: 20px;
   margin-bottom: 12px;
   display: inline-block;
+  cursor: pointer;
 }
 .contact_form_input {
   width: 100%;
@@ -743,6 +744,7 @@ nav {
   border: 1px solid #dde1e0;
   font-size: 18px;
   padding: 5px 10px;
+  font-family: var(--inter-font);
 }
 .contact_form_btn {
   margin-top: 40px;
