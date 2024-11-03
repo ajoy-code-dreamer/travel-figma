@@ -74,6 +74,7 @@ body {
   font-size: 16px;
   font-weight: var(--medium-weight);
   color: var(--white-clr);
+  line-height: normal;
   padding: 8px 15px;
   background-color: var(--transparent-clr);
   transition: var(--transition);
@@ -776,3 +777,77 @@ nav {
   border: 1px solid var(--primary-clr);
 }
 /* ================ contact section css end here ================ */
+/* ================ footer section css start here ================ */
+footer {
+  padding: 70px 0 78px 0;
+  background: url(../images/footer_bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.footer_contact_info_wrapper {
+  width: 851px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 71px 20px;
+  border-radius: 10px;
+  background: var(--white-clr);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.footer_contact_heading {
+  color: var(--heading-text-clr);
+  font-size: 34px;
+  font-weight: var(--semi-bold-weight);
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.footer_contact_address {
+  color: var(--heading-text-clr);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  margin-bottom: 11px;
+}
+.footer_contact_details {
+  max-width: 544px;
+  margin: 0 auto;
+  color: var(--secondary-text-clr);
+  text-align: center;
+  font-size: 18px;
+  font-weight: var(--regular-weight);
+  line-height: 32px;
+  margin-bottom: 27px;
+}
+.footer_contact_mail,
+.footer_contact_mobile{
+  color:var(--secondary-text-clr);
+font-size: 16px;
+font-weight: var(--medium-weight);
+line-height: normal;
+margin-bottom: 40px;
+}
+.footer_contact_mail{
+  margin-right: 26px;
+}
+.footer_contact_mail img,
+.footer_contact_mobile img{
+  padding-right: 10px;
+}
+footer .common_btn{
+  text-align: center;
+  background-color: var(--primary-clr);
+  border-color: var(--primary-clr);
+  color: white;
+  font-size: 16px;
+  padding: 9px 28px;
+  font-weight: var(--semi-bold-weight);
+  line-height: normal;
+}
+footer .common_btn:hover{
+  background-color: var(--transparent-clr);
+  color: var(--primary-clr);
+
+}
+/* ================ footer section css end here ================ */
