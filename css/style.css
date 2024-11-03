@@ -446,7 +446,7 @@ nav {
 }
 .commitment_content_wrapper {
   display: flex;
-  gap: 200px;
+  justify-content: space-between;
 }
 .commitment_item_wrapper {
   display: flex;
@@ -484,14 +484,13 @@ nav {
   overflow: hidden;
   object-fit: cover;
   object-position: center;
+  margin-top: 35px;
 }
-.commitment_graph picture img {
-  transform: scale(0.9);
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -o-transform: scale(0.9);
+.commitment_graph img{
+  width: 100%;
+  height: 100%;
 }
+
 
 /* ================ commitment section css end here ================ */
 
