@@ -795,6 +795,7 @@ footer {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  margin-bottom: 68px;
 }
 .footer_contact_heading {
   color: var(--heading-text-clr);
@@ -849,6 +850,43 @@ footer .common_btn{
 footer .common_btn:hover{
   background-color: var(--transparent-clr);
   color: var(--primary-clr);
+}
+.footer_quick_link_wrapper{
+  padding: 25px 0;
+  border-top: 1px solid var(--white-clr);
+  border-bottom: 1px solid var(--white-clr);
+}
+.footer_quick_link_item_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_brand_logo{
+  color: var(--white-clr);
+font-size: 30px;
+font-weight: var(--semi-bold-weight);
+line-height: normal;
+}
+.footer_policy{
+  margin-left: 17px;
+}
+.footer_policy,
+.copyright{
+  color: var(--white-clr);
+font-size: 16px;
+font-weight: var(--medium-weight);
+line-height: normal;
+}
+.footer_social_link_wrapper{
+  display: flex;
+  align-items: center;
+}
+.footer_social_link{
+  max-width: 53px;
+}
+.copyright{
+  padding-top: 27px;
+  text-align: center;
 
 }
 /* ================ footer section css end here ================ */
